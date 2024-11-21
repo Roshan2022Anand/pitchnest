@@ -8,8 +8,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: 'var(--background)',
-        foreground: 'var(--foreground)',
+        bgColor: 'var(--bg-color)',
+        textColor: 'var(--text-color)',
+        secColor: 'var(--secondary-color)',
+        accentColor: 'var(--accent-color)',
+      },
+      fontFamily: {
+        interFont: 'var(--font-inter)',
+        robotoFont: 'var(--font-roboto)',
+        poppinsFont: 'var(--font-poppins)',
       },
     },
   },

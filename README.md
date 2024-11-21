@@ -4,8 +4,12 @@ Pitch Nest is a platform were
 - invesotrs can see all the post/proposals form the entrepreneurs and get connected
 
 To setup the preoject run
-pnpm i
+-pnpm i
 as we use pnpm as the package manager.
 
 To run the project
-pnpm dev
+-pnpm dev
+
+Included ESLint and Prettier 
+-pnpm lint
+-pnpm format
